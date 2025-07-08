@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Naufal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <p class="logo">naufalrafa.my.id</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#project">Project</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="toggle" id="toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+        <a href="#">Home</a>
+        <a href="#project">Project</a>
+        <a href="#about">About</a>
+    </div>
+
+    <main>
+        <section class="hero">
+            <h1>Hi, I am Muhammad Naufal Rafa Al As'ad!</h1>
+            <hr>
+            <p class="desc">Learning Web Developer | Student SMK Telkom Sidoarjo</p>
+            <div class="nav">
+                <a href="#about" class="btn white">About Me</a>
+                <a href="#project" class="btn white">My Project</a>
+            </div>
+        </section>
+
+        <section class="my-project" id="project">
+            <h1>My Project</h1>
+            <div class="list">
+                <div class="project">
+                    <h3>Bengkel Wahyu Putra</h3>
+                    <p>Bengkel Wahyu Putra adalah sebuah bengkel jasa bubut yang menerima pengerjaan logam. Dengan
+                        adanya website Bengkel Wahyu Putra, orang-orang bisa memesan jasa yang disediakan secara online.
+                    </p>
+                    <div class="link">
+                        <a href="https://github.com/Falrafa4/bengkel-wahyu-putra.git" class="btn black" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Web untuk Projek Modelling (Progress)</h3>
+                    <p>Sebuah website untuk menampung seluruh hasil project modelling saya lalu saya bagikan secara
+                        publik. Hasil dari modelling saya akan menjadi sebuah mod untuk game kereta api bernama Trainz
+                        Simulator.</p>
+                    <div class="link">
+                        <a href="https://www.figma.com/design/96PlxFRSgVBGS87Xrvp1xX/NRATrainz?node-id=0-1&t=xgYsYxXbSS0JEsva-1"
+                            class="btn black" target="_blank">
+                            <i class="fab fa-figma"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h2>Other Project</h2>
+            <div class="list">
+                <div class="project">
+                    <h3>SidoWaras (Competition)</h3>
+                    <p>SidoWaras adalah website untuk inovasi dalam meningkatkan nutrisi masyarakat. Website ini dibuat
+                        guna untuk sebuah perlombaan yang diselenggarakan oleh Codingbee berjudul Code Olympiad 2025.
+                        (Ongoing)</p>
+                    <div class="link">
+                        <a href="https://github.com/Falrafa4/sidowaras" class="btn black" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://falrafa4.github.io/sidowaras" class="btn black" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Stasiun Gedangan (3D Model)</h3>
+                    <p>Merupakan salah satu projek 3D Modelling saya yaitu membuat Stasiun Gedangan. Projek 3D Modelling
+                        ini bertujuan untuk menjadikan objek 3D sebagai mod dalam game. <em>(Belum Dipublikasikan)</em>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="about" id="about">
+            <h1>About Me</h1>
+            <hr>
+            <p>Halo, nama saya Muhammad Naufal Rafa Al As'ad asal kota Sidoarjo. Saya mulai tertarik ke dunia IT,
+                terutama dalam pengembangan web saat hendak masuk SMK. Saat ini, saya berada di kelas XI dengan jurusan
+                Sistem Informasi, Jaringan, dan Aplikasi.</p>
+            <div class="link" style="margin-top: 20px;">
+                <a href="https://github.com/Falrafa4/" class="btn black" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-naufal-rafa-al-as-ad-539b65341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="btn black" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/6282335241416" class="btn black" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/naufal.rafaa?igsh=MW8ydzh0YjAxeGpiag==" class="btn black"
+                    target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/share/1CZarKnC3t/" class="btn black" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer>
+        &copy; Copyleft 2025 | NRACompany
+    </footer> -->
+
+    <script>
+        const toggle = document.getElementById('toggle');
+        const sidebar = document.getElementById('sidebar');
+
+        toggle.addEventListener('click', function () {
+            sidebar.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
